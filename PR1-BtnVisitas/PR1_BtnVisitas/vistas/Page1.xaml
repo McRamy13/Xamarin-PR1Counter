@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR1_BtnVisitas.Vistas.Page1">
+    <ContentPage.Content>
+        <StackLayout Padding="80,80,80,80">
+            <Label Text="No se ha pulsado el botón" x:Name="lblCounter" XAlign="Center" YAlign="Center" />
+            <Button Text="Púlsame"  x:Name="btnPressed" Margin="60,60,60,60"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
